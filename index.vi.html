@@ -48,8 +48,8 @@
             <a href="index.my.html">မြန်မာ</a>,
             <a href="index.ja.html">日本語</a>,
             <a href="index.zh.html">中文</a>,
-            <a href="index.ko.html">한국어</a>
-            <a href="index.vi.html">Vietnamese</a>
+            <a href="index.ko.html">한국어</a>,
+            <a href="index.vi.html">Tiếng Việt</a>
             <br />
             vui lòng báo cáo vấn đề trên <a href="https://github.com/hnq90/git-guide/issues">github</a>
         </p>
@@ -132,11 +132,11 @@
         </p>
         <img src="img/branches.png" alt="" />
         <p>
-            tạo một nhánh mới và đặt tên là "feature_x" và chuyển qua nhánh đó (từ master) bằng cách<br />
+            tạo một nhánh mới với tên là "feature_x" và chuyển qua nhánh đó (từ master) bằng cách<br />
             <code>git checkout -b feature_x</code><br />
             trở lại nhánh master<br />
             <code>git checkout master</code><br />
-            và xóa nhánh feature_x đó lần nửa<br />
+            và xóa nhánh feature_x đó lần nữa<br />
             <code>git branch -d feature_x</code><br />
             một nhánh <i>không có giá trị với các nhánh khác</i> trừ khi bạn đẩy nhánh đó đến remote repository<br />
             <code>git push origin &lt;nhánh&gt;</code>
@@ -167,7 +167,7 @@
             <code>git tag 1.0.0 1b2e1d63ff</code><br />
             chuỗi <i>1b2e1d63ff</i> là 10 ký tự đầu tiên của mã commit (commit id) mà bạn muốn tham chiếu đến bằng nhãn của bạn. Bạn có thể lấy mã commit với lệnh <br />
             <code>git log</code><br />
-            bạn cũng có thể sử dụng ít ký tự hơn từ mã commit, nó chỉ cần phải là duy nhất.
+            bạn cũng có thể sử dụng ít ký tự hơn từ mã commit, chỉ cần nó phải là duy nhất.
         </p>
     </div>
     <a name="checkout-replace"></a>
